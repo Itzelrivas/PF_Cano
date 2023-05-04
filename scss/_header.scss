@@ -1,0 +1,10 @@
+$rosa: rgb(255, 205, 214);
+
+.header {
+    background-color: $rosa; display:flex;
+    .header__logo img{
+        display: flex;
+        width: 12%;
+        padding: 1%;
+    }
+}

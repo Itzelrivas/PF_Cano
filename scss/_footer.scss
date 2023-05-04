@@ -1,0 +1,15 @@
+$rosaf: rgb(255, 56, 93);
+
+@mixin center{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__autor{
+    background-color: $rosa;
+    @include center;
+    align-items: center;
+}
+
+.footer{margin-top: 10%;}
+.footer__autor p{font-family: 'footer'; color: white;}

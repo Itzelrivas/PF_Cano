@@ -1,0 +1,20 @@
+$dorado: rgb(183, 157, 10);
+
+.nav__menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: $dorado;
+    list-style-type: none;
+    margin: 0 0;
+    padding-left: 0;
+    li{
+        padding: .6%;
+        a{
+            font-family: 'chocolatel';
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.nav__menu a:hover{font-size: 20px; font-family: 'chocolate'; transition: .5s all;}
