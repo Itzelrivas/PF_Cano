@@ -1,0 +1,57 @@
+.promociones{
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    align-content: center;
+    .promociones__tratamiento{
+        background-color: $verde; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+        border-width: 10px; 
+        border-style: double; 
+        border-color: beige;
+        img{
+            width: 80%; 
+            margin-bottom: 3%;
+        }
+        h2{
+            margin-bottom: 0%; 
+            font-family: 'chocolate'; 
+            color: beige;
+        }
+        p{
+            color: aliceblue; 
+            font-family: 'chocolatel'; 
+            margin-left: 3%; 
+            margin-right: 3%;
+        }
+    }
+    .promociones__tratamiento--vigencia{
+        background-color: $verde; 
+        margin-top: 0%; 
+        padding: 1.5%;}
+}
+
+@media only screen and (max-width: 768px){
+    .promociones{margin-left: 15%; margin-right: 15%;}
+    .promociones__tratamiento{
+        margin-top: 10%;
+        p{font-size: 10px;}
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .promociones{margin-left: 3%; margin-right: 3%;}
+    .promociones__tratamiento{
+        width: 60%; 
+        margin-top: 5%;
+        p{font-size: 20px;}
+    }
+}
+
+.promociones__tratamiento{
+    background-color: $verde;
+    transition: background-color 1.5s;
+}
+.promociones__tratamiento:hover{background-color: $rosaf;}

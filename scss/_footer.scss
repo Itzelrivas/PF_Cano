@@ -5,11 +5,35 @@ $rosaf: rgb(255, 56, 93);
     justify-content: center;
 }
 
-.footer__autor{
-    background-color: $rosa;
-    @include center;
-    align-items: center;
+
+.footer{
+    margin-top: 10%;
+    .footer__rs{
+        background-color: $rosa;
+        ul{
+            margin: 0%;
+            display: flex;
+            justify-content: space-around;
+            padding-left: 0%;
+            li{list-style-type: none;padding: .5% .5%;}
+            a{
+                font-family: 'chocolate';
+                text-decoration: none;
+                color: $rosaf;
+            }
+        }
+    }
 }
 
-.footer{margin-top: 10%;}
-.footer__autor p{font-family: 'footer'; color: white;}
+.footer__autor{
+    background-image: radial-gradient(circle, rgb(152, 17, 40), $rosaf);
+    @include center;
+    align-items: center;
+    p{
+        font-family: 'footer'; 
+        color: white;
+        padding: .3% .3%; 
+        margin: 0%;
+    }
+}
+

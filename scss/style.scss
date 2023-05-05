@@ -4,5 +4,24 @@
 @import "footer";
 @import "inicio";
 @import "mixins";
+@import "procedimientos";
+@import "promociones";
+@import "contacto";
+@import "citas";
 
 body {margin: 0%;}
+
+.titulo h1{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'titulo';
+    font-weight: normal;
+    margin: 5% 0% 1% 5%;
+}
+
+.main__pinicial p{
+    @include center;
+    @include margin;
+    text-align: center;
+}
+
